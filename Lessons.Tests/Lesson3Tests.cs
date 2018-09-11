@@ -27,5 +27,19 @@ namespace Lessons.Tests
             Assert.AreEqual(2, instance.solution(new[] { 3, 1 }));
             Assert.AreEqual(1, instance.solution(new[] { 2 }));
         }
+
+        [TestCase]
+        public void TapeEquilibrium()
+        {
+            var instance = new TapeEquilibrium();
+
+            Assert.AreEqual(1, instance.solution(new[] { 3, 1, 2, 4, 3 }));
+            Assert.AreEqual(2, instance.solution(new[] { 3, 1 }));
+            Assert.AreEqual(2, instance.solution(new[] { 1, 3 }));
+            Assert.AreEqual(0, instance.solution(new[] { 1, 1 }));
+            Assert.AreEqual(1000, instance.solution(new[] { 0, 1000 }));
+            Assert.AreEqual(1000, instance.solution(new[] { 1000, 0 }));
+            Assert.AreEqual(999, instance.solution(new[] { 1000, 0, 1 }));
+        }
     }
 }
