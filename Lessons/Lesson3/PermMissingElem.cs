@@ -6,9 +6,9 @@ namespace Lessons.Lesson3
     {
         public int solution(int[] A)
         {
-            var n = A.Length + 1;
-            var sum = n * (n + 1) / 2;
-            return sum - A.Sum();
+            long n = A.Length + 1;
+            long sum = n * (n + 1) / 2;
+            return (int)(sum - A.Sum());
         }
     }
 }
