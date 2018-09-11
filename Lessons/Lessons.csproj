@@ -46,6 +46,7 @@
     <Compile Include="Lesson2\CyclicRotation.cs" />
     <Compile Include="Lesson2\OddOccurrencesInArray.cs" />
     <Compile Include="Lesson3\FrogJmp.cs" />
+    <Compile Include="Lesson3\PermMissingElem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
