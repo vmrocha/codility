@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Lesson1Tests.cs" />
     <Compile Include="Lesson2Tests.cs" />
+    <Compile Include="Lesson3Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
