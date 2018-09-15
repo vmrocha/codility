@@ -48,9 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson1Tests.cs" />
-    <Compile Include="Lesson2Tests.cs" />
-    <Compile Include="Lesson3Tests.cs" />
+    <Compile Include="Lesson1\BinaryGapFixture.cs" />
+    <Compile Include="Lesson2\CyclicRotationFixture.cs" />
+    <Compile Include="Lesson2\OddOccurrencesInArrayFixture.cs" />
+    <Compile Include="Lesson3\FrogJmpFixture.cs" />
+    <Compile Include="Lesson3\PermMissingElemFixture.cs" />
+    <Compile Include="Lesson3\TapeEquilibriumFixture.cs" />
     <Compile Include="Lesson4Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
