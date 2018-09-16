@@ -54,7 +54,8 @@
     <Compile Include="Lesson3\FrogJmpFixture.cs" />
     <Compile Include="Lesson3\PermMissingElemFixture.cs" />
     <Compile Include="Lesson3\TapeEquilibriumFixture.cs" />
-    <Compile Include="Lesson4Tests.cs" />
+    <Compile Include="Lesson4\FrogJumpOneFixture.cs" />
+    <Compile Include="Lesson4\PermCheckFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
