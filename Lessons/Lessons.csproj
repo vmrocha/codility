@@ -49,6 +49,7 @@
     <Compile Include="Lesson3\PermMissingElem.cs" />
     <Compile Include="Lesson3\TapeEquilibrium.cs" />
     <Compile Include="Lesson4\FrogJumpOne.cs" />
+    <Compile Include="Lesson4\MaxCounters.cs" />
     <Compile Include="Lesson4\PermCheck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
