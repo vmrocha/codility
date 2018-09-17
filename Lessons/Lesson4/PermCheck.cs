@@ -2,7 +2,7 @@
 {
     public class PermCheck
     {
-        public int solution(int[] A)
+        public int Solution(int[] A)
         {
             var found = new bool[A.Length];
 

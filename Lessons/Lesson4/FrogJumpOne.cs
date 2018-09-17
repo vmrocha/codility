@@ -2,7 +2,7 @@
 {
     public class FrogJumpOne
     {
-        public int solution(int X, int[] A)
+        public int Solution(int X, int[] A)
         {
             var found = new bool[X];
 

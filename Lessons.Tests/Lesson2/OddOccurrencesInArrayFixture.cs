@@ -10,7 +10,7 @@ namespace Lessons.Tests.Lesson2
         public void OddOccurrencesInArray(int[] array, int expected)
         {
             var instance = new OddOccurrencesInArray();
-            Assert.AreEqual(expected, instance.solution(array));
+            Assert.AreEqual(expected, instance.Solution(array));
         }
 
         private static object[] Data => new object[]

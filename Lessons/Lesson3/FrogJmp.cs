@@ -2,7 +2,7 @@
 {
     public class FrogJmp
     {
-        public int solution(int X, int Y, int D)
+        public int Solution(int X, int Y, int D)
         {
             var diff = Y - X;
 

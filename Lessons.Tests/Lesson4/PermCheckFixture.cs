@@ -9,7 +9,7 @@ namespace Lessons.Tests.Lesson4
         [TestCaseSource(nameof(Data))]
         public void PermCheck(int expected, int[] A)
         {
-            Assert.AreEqual(expected, new PermCheck().solution(A));
+            Assert.AreEqual(expected, new PermCheck().Solution(A));
         }
 
         private static object[] Data => new object[]

@@ -10,7 +10,7 @@ namespace Lessons.Tests.Lesson3
         public void FrogJmp(int X, int Y, int D, int expected)
         {
             var instance = new FrogJmp();
-            Assert.AreEqual(expected, instance.solution(X, Y, D));
+            Assert.AreEqual(expected, instance.Solution(X, Y, D));
         }
 
         private static object[] Data => new object[]

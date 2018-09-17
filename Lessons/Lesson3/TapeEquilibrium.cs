@@ -5,7 +5,7 @@ namespace Lessons.Lesson3
 {
     public class TapeEquilibrium
     {
-        public int solution(int[] A)
+        public int Solution(int[] A)
         {
             var sumA = A[0];
             var sumB = A.Sum() - sumA;

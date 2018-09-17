@@ -2,7 +2,7 @@
 {
     public class OddOccurrencesInArray
     {
-        public int solution(int[] A)
+        public int Solution(int[] A)
         {
             var result = 0;
 

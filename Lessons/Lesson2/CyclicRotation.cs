@@ -1,11 +1,8 @@
 ﻿namespace Lessons.Lesson2
 {
-    /// <summary>
-    /// https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
-    /// </summary>
     public class CyclicRotation
     {
-        public int[] solution(int[] A, int K)
+        public int[] Solution(int[] A, int K)
         {
             if (A.Length < 2)
             {

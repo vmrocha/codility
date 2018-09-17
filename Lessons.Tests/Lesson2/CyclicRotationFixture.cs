@@ -10,7 +10,7 @@ namespace Lessons.Tests.Lesson2
         public void CyclicRotationTests(int[] array, int n, int[] expected)
         {
             var instance = new CyclicRotation();
-            Assert.AreEqual(instance.solution(array, n), expected);
+            Assert.AreEqual(instance.Solution(array, n), expected);
         }
 
         private static object[] Data => new object[]

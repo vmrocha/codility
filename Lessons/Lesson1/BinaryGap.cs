@@ -2,12 +2,9 @@
 
 namespace Lessons.Lesson1
 {
-    /// <summary>
-    /// https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
-    /// </summary>
     public class BinaryGap
     {
-        public int solution(int N)
+        public int Solution(int N)
         {
             var binary = Convert.ToString(N, 2);
             var gap = 0;

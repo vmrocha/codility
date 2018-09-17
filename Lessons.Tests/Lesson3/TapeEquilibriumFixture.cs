@@ -10,7 +10,7 @@ namespace Lessons.Tests.Lesson3
         public void TapeEquilibrium(int[] A, int expected)
         {
             var instance = new TapeEquilibrium();
-            Assert.AreEqual(expected, instance.solution(A));
+            Assert.AreEqual(expected, instance.Solution(A));
         }
 
         private static object[] Data => new object[]

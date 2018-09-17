@@ -11,7 +11,7 @@ namespace Lessons.Tests.Lesson1
         public void BinaryGapTests(int number, int expectedResult)
         {
             var instance = new BinaryGap();
-            Assert.AreEqual(expectedResult, instance.solution(number));
+            Assert.AreEqual(expectedResult, instance.Solution(number));
         }
 
         private static object[] Data => new object[] 

@@ -4,7 +4,7 @@ namespace Lessons.Lesson3
 {
     public class PermMissingElem
     {
-        public int solution(int[] A)
+        public int Solution(int[] A)
         {
             long n = A.Length + 1;
             long sum = n * (n + 1) / 2;
