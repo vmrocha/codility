@@ -7,10 +7,10 @@ namespace Lessons.Tests.Lesson3
     public class TapeEquilibriumFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void TapeEquilibrium(int[] A, int expected)
+        public void TapeEquilibrium(int[] a, int expected)
         {
             var instance = new TapeEquilibrium();
-            Assert.AreEqual(expected, instance.Solution(A));
+            Assert.AreEqual(expected, instance.Solution(a));
         }
 
         private static object[] Data => new object[]

@@ -7,10 +7,10 @@ namespace Lessons.Tests.Lesson3
     public class PermMissingElemFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void PermMissingElem(int[] A, int expected)
+        public void PermMissingElem(int[] a, int expected)
         {
             var instance = new PermMissingElem();
-            Assert.AreEqual(expected, instance.Solution(A));
+            Assert.AreEqual(expected, instance.Solution(a));
         }
 
         private static object[] Data => new object[]

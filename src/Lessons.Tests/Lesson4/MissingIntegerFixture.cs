@@ -14,9 +14,9 @@ namespace Lessons.Tests.Lesson4
         }
 
         [TestCaseSource(nameof(Data))]
-        public void Solution(int expected, int[] A)
+        public void Solution(int expected, int[] a)
         {
-            Assert.AreEqual(expected, _instance.Solution(A));
+            Assert.AreEqual(expected, _instance.Solution(a));
         }
 
         private static object[] Data => new object[]

@@ -7,10 +7,10 @@ namespace Lessons.Tests.Lesson3
     public class FrogJmpFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void FrogJmp(int X, int Y, int D, int expected)
+        public void FrogJmp(int x, int y, int d, int expected)
         {
             var instance = new FrogJmp();
-            Assert.AreEqual(expected, instance.Solution(X, Y, D));
+            Assert.AreEqual(expected, instance.Solution(x, y, d));
         }
 
         private static object[] Data => new object[]

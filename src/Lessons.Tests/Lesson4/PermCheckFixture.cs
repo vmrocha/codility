@@ -7,9 +7,9 @@ namespace Lessons.Tests.Lesson4
     public class PermCheckFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void PermCheck(int expected, int[] A)
+        public void PermCheck(int expected, int[] a)
         {
-            Assert.AreEqual(expected, new PermCheck().Solution(A));
+            Assert.AreEqual(expected, new PermCheck().Solution(a));
         }
 
         private static object[] Data => new object[]

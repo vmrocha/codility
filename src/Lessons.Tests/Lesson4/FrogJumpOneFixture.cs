@@ -7,9 +7,9 @@ namespace Lessons.Tests.Lesson4
     public class FrogJumpOneFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void FrogJumpOne(int expected, int X, int[] A)
+        public void FrogJumpOne(int expected, int x, int[] a)
         {
-            Assert.AreEqual(expected, new FrogJumpOne().Solution(X, A));
+            Assert.AreEqual(expected, new FrogJumpOne().Solution(x, a));
         }
 
         private static object[] Data => new object[]

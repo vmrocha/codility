@@ -7,9 +7,9 @@ namespace Lessons.Tests.Lesson4
     public class MaxCountersFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void Solution(int[] expected, int N, int[] A)
+        public void Solution(int[] expected, int n, int[] a)
         {
-            Assert.AreEqual(expected, new MaxCounters().Solution(N, A));
+            Assert.AreEqual(expected, new MaxCounters().Solution(n, a));
         }
 
         private static object[] Data => new object[]
