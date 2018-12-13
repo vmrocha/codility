@@ -58,6 +58,7 @@
     <Compile Include="Lesson4\MaxCountersFixture.cs" />
     <Compile Include="Lesson4\MissingIntegerFixture.cs" />
     <Compile Include="Lesson4\PermCheckFixture.cs" />
+    <Compile Include="Lesson5\PassingCarsFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +70,7 @@
       <Name>Lessons</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

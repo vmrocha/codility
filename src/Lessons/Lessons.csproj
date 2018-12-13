@@ -52,6 +52,7 @@
     <Compile Include="Lesson4\MaxCounters.cs" />
     <Compile Include="Lesson4\MissingInteger.cs" />
     <Compile Include="Lesson4\PermCheck.cs" />
+    <Compile Include="Lesson5\PassingCars.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
