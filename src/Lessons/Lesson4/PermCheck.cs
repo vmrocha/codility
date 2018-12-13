@@ -1,4 +1,6 @@
-﻿namespace Lessons.Lesson4
+﻿// ReSharper disable InconsistentNaming
+
+namespace Lessons.Lesson4
 {
     public class PermCheck
     {

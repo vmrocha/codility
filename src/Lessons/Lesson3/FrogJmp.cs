@@ -1,4 +1,6 @@
-﻿namespace Lessons.Lesson3
+﻿// ReSharper disable InconsistentNaming
+
+namespace Lessons.Lesson3
 {
     public class FrogJmp
     {

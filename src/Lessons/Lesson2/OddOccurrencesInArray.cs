@@ -1,4 +1,6 @@
-﻿namespace Lessons.Lesson2
+﻿// ReSharper disable InconsistentNaming
+
+namespace Lessons.Lesson2
 {
     public class OddOccurrencesInArray
     {

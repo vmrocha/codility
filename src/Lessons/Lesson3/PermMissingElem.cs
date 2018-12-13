@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿// ReSharper disable InconsistentNaming
+
+using System.Linq;
 
 namespace Lessons.Lesson3
 {
