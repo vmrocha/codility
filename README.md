@@ -33,7 +33,7 @@ This repository is an attempt of solving the Codility Lessons using C# and shari
   - :tada: MaxCounters
   - :tada: MissingInteger
 - Lesson 05
-  - :file_folder: PassingCars
+  - :tada: PassingCars
   - :file_folder: GenomicRangeQuery
   - :file_folder: MinAvgTwoSlice
   - :file_folder: CountDiv
