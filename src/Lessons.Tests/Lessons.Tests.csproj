@@ -58,6 +58,7 @@
     <Compile Include="Lesson4\MaxCountersFixture.cs" />
     <Compile Include="Lesson4\MissingIntegerFixture.cs" />
     <Compile Include="Lesson4\PermCheckFixture.cs" />
+    <Compile Include="Lesson5\CountDivFixture.cs" />
     <Compile Include="Lesson5\GenomicRangeQueryFixture.cs" />
     <Compile Include="Lesson5\MinAvgTwoSliceFixture.cs" />
     <Compile Include="Lesson5\PassingCarsFixture.cs" />
