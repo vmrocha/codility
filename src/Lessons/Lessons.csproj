@@ -53,6 +53,7 @@
     <Compile Include="Lesson4\MissingInteger.cs" />
     <Compile Include="Lesson4\PermCheck.cs" />
     <Compile Include="Lesson5\GenomicRangeQuery.cs" />
+    <Compile Include="Lesson5\MinAvgTwoSlice.cs" />
     <Compile Include="Lesson5\PassingCars.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

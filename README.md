@@ -24,3 +24,4 @@ Lesson | Exercise              | Score | Correctness | Performance | Detected Co
 04     | MissingInteger        | 100%  | 100%        | 100%        | O(N) or O(N * log(N))
 05     | PassingCars           | 100%  | 100%        | 100%        | O(N)
 05     | GenomicRangeQuery     | 100%  | 100%        | 100%        | O(N + M)
+05     | MinAvgTwoSlice        | 100%  | 100%        | 100%        | O(N)
