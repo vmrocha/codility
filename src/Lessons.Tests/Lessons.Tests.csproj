@@ -54,7 +54,7 @@
     <Compile Include="Lesson3\FrogJmpFixture.cs" />
     <Compile Include="Lesson3\PermMissingElemFixture.cs" />
     <Compile Include="Lesson3\TapeEquilibriumFixture.cs" />
-    <Compile Include="Lesson4\FrogJumpOneFixture.cs" />
+    <Compile Include="Lesson4\FrogRiverOneFixture.cs" />
     <Compile Include="Lesson4\MaxCountersFixture.cs" />
     <Compile Include="Lesson4\MissingIntegerFixture.cs" />
     <Compile Include="Lesson4\PermCheckFixture.cs" />

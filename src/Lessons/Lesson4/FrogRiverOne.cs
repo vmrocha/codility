@@ -2,7 +2,7 @@
 
 namespace Lessons.Lesson4
 {
-    public class FrogJumpOne
+    public class FrogRiverOne
     {
         public int Solution(int X, int[] A)
         {

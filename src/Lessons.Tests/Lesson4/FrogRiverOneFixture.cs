@@ -4,12 +4,12 @@ using NUnit.Framework;
 namespace Lessons.Tests.Lesson4
 {
     [TestFixture]
-    public class FrogJumpOneFixture
+    public class FrogRiverOneFixture
     {
         [TestCaseSource(nameof(Data))]
         public void FrogJumpOne(int expected, int x, int[] a)
         {
-            Assert.AreEqual(expected, new FrogJumpOne().Solution(x, a));
+            Assert.AreEqual(expected, new FrogRiverOne().Solution(x, a));
         }
 
         private static object[] Data => new object[]
