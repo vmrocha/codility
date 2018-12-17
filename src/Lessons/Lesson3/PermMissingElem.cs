@@ -10,7 +10,12 @@ namespace Lessons.Lesson3
         {
             long n = A.Length + 1;
             long sum = n * (n + 1) / 2;
-            return (int)(sum - A.Sum());
+            foreach (var value in A)
+            {
+                sum -= value;
+            }
+
+            return (int)sum;
         }
     }
 }
