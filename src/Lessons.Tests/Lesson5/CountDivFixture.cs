@@ -6,7 +6,7 @@ namespace Lessons.Tests.Lesson5
     public class CountDivFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void MinAvgTwoSlice(int expected, int a, int b, int k)
+        public void CountDiv(int expected, int a, int b, int k)
         {
             Assert.AreEqual(expected, new CountDiv().solution(a, b, k));
         }

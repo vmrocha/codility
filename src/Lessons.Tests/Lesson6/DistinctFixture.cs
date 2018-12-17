@@ -6,7 +6,7 @@ namespace Lessons.Tests.Lesson6
     internal class DistinctFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void PassingCars(int expected, int[] a)
+        public void Distinct(int expected, int[] a)
         {
             Assert.AreEqual(expected, new Distinct().solution(a));
         }
