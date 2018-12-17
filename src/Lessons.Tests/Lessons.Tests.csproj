@@ -63,6 +63,7 @@
     <Compile Include="Lesson5\MinAvgTwoSliceFixture.cs" />
     <Compile Include="Lesson5\PassingCarsFixture.cs" />
     <Compile Include="Lesson6\DistinctFixture.cs" />
+    <Compile Include="Lesson6\TriangleFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
