@@ -26,3 +26,4 @@ Lesson | Exercise              | Score | Correctness | Performance | Detected Co
 05     | GenomicRangeQuery     | 100%  | 100%        | 100%        | O(N + M)
 05     | MinAvgTwoSlice        | 100%  | 100%        | 100%        | O(N)
 05     | CountDiv              | 100%  | 100%        | 100%        | O(1)
+06     | Distinct              | 100%  | 100%        | 100%        | O(N*log(N)) or O(N)
