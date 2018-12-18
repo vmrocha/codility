@@ -29,3 +29,4 @@ Lesson | Exercise              | Score | Correctness | Performance | Detected Co
 06     | Distinct              | 100%  | 100%        | 100%        | O(N*log(N)) or O(N)
 06     | Triangle              | 100%  | 100%        | 100%        | O(N*log(N))
 06     | MaxProductOfThree     | 100%  | 100%        | 100%        | O(N*log(N))
+07     | Brackets              | 100%  | 100%        | 100%        | O(N)
