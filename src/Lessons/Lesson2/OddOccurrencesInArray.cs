@@ -1,10 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-namespace Lessons.Lesson2
+namespace Lessons.Lesson2.OddOccurrencesInArray
 {
-    public class OddOccurrencesInArray
+    public class Solution
     {
-        public int Solution(int[] A)
+        public int solution(int[] A)
         {
             var result = 0;
 

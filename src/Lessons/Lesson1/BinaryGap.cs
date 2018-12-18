@@ -1,12 +1,13 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-using System;
-
-namespace Lessons.Lesson1
+namespace Lessons.Lesson1.BinaryGap
 {
-    public class BinaryGap
+    using System;
+
+    public class Solution
     {
-        public int Solution(int N)
+        public int solution(int N)
         {
             var binary = Convert.ToString(N, 2);
             var gap = 0;

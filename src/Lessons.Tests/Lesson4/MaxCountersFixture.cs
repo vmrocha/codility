@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson4;
+﻿using Lessons.Lesson4.MaxCounters;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson4
@@ -9,7 +9,8 @@ namespace Lessons.Tests.Lesson4
         [TestCaseSource(nameof(Data))]
         public void Solution(int[] expected, int n, int[] a)
         {
-            Assert.AreEqual(expected, new MaxCounters().Solution(n, a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(n, a));
         }
 
         private static object[] Data => new object[]

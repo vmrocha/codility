@@ -1,13 +1,14 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-using System;
-using System.Linq;
-
-namespace Lessons.Lesson3
+namespace Lessons.Lesson3.TapeEquilibrium
 {
-    public class TapeEquilibrium
+    using System;
+    using System.Linq;
+
+    public class Solution
     {
-        public int Solution(int[] A)
+        public int solution(int[] A)
         {
             var sumA = A[0];
             var sumB = A.Sum() - sumA;

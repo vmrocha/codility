@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson2;
+﻿using Lessons.Lesson2.CyclicRotation;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson2
@@ -7,10 +7,10 @@ namespace Lessons.Tests.Lesson2
     public class CyclicRotationFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void CyclicRotationTests(int[] array, int n, int[] expected)
+        public void Solution(int[] array, int n, int[] expected)
         {
-            var instance = new CyclicRotation();
-            Assert.AreEqual(instance.Solution(array, n), expected);
+            var instance = new Solution();
+            Assert.AreEqual(instance.solution(array, n), expected);
         }
 
         private static object[] Data => new object[]

@@ -1,14 +1,15 @@
-﻿using Lessons.Lesson5;
+﻿using Lessons.Lesson5.PassingCars;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson5
 {
-    class PassingCarsFixture
+    public class PassingCarsFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void PassingCars(int expected, int[] a)
+        public void Solution(int expected, int[] a)
         {
-            Assert.AreEqual(expected, new PassingCars().solution(a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a));
         }
 
         private static object[] Data => new object[]

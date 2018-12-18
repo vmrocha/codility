@@ -1,18 +1,19 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-using System.Collections.Generic;
-
-namespace Lessons.Lesson6
+namespace Lessons.Lesson6.Distinct
 {
-    public class Distinct
+    using System.Collections.Generic;
+
+    public class Solution
     {
         public int solution(int[] A)
         {
             var set = new HashSet<int>();
 
-            for (var i = 0; i < A.Length; i++)
+            foreach (var value in A)
             {
-                set.Add(A[i]);
+                set.Add(value);
             }
 
             return set.Count;

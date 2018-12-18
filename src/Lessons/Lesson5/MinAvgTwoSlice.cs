@@ -1,8 +1,9 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-namespace Lessons.Lesson5
+namespace Lessons.Lesson5.MinAvgTwoSlice
 {
-    public class MinAvgTwoSlice
+    public class Solution
     {
         public int solution(int[] A)
         {

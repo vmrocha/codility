@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson4;
+﻿using Lessons.Lesson4.MissingInteger;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson4
@@ -6,17 +6,11 @@ namespace Lessons.Tests.Lesson4
     [TestFixture]
     public class MissingIntegerFixture
     {
-        private readonly MissingInteger _instance;
-
-        public MissingIntegerFixture()
-        {
-            _instance = new MissingInteger();
-        }
-
         [TestCaseSource(nameof(Data))]
         public void Solution(int expected, int[] a)
         {
-            Assert.AreEqual(expected, _instance.Solution(a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a));
         }
 
         private static object[] Data => new object[]

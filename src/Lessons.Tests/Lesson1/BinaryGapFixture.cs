@@ -1,5 +1,5 @@
 ﻿using System;
-using Lessons.Lesson1;
+using Lessons.Lesson1.BinaryGap;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson1
@@ -8,10 +8,10 @@ namespace Lessons.Tests.Lesson1
     public class BinaryGapFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void BinaryGapTests(int number, int expectedResult)
+        public void Solution(int number, int expectedResult)
         {
-            var instance = new BinaryGap();
-            Assert.AreEqual(expectedResult, instance.Solution(number));
+            var instance = new Solution();
+            Assert.AreEqual(expectedResult, instance.solution(number));
         }
 
         private static object[] Data => new object[] 

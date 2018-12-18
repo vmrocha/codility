@@ -1,12 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-using System.Linq;
-
-namespace Lessons.Lesson3
+namespace Lessons.Lesson3.PermMissingElem
 {
-    public class PermMissingElem
+    public class Solution
     {
-        public int Solution(int[] A)
+        public int solution(int[] A)
         {
             long n = A.Length + 1;
             long sum = n * (n + 1) / 2;

@@ -1,8 +1,9 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-namespace Lessons.Lesson5
+namespace Lessons.Lesson5.PassingCars
 {
-    public class PassingCars
+    public class Solution
     {
         private const int EAST = 0;
         private const int WEST = 1;

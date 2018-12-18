@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson5;
+﻿using Lessons.Lesson5.MinAvgTwoSlice;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson5
@@ -6,9 +6,10 @@ namespace Lessons.Tests.Lesson5
     public class MinAvgTwoSliceFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void MinAvgTwoSlice(int expected, int[] a)
+        public void Solution(int expected, int[] a)
         {
-            Assert.AreEqual(expected, new MinAvgTwoSlice().solution(a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a));
         }
 
         private static object[] Data => new object[]

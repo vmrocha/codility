@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson4;
+﻿using Lessons.Lesson4.PermCheck;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson4
@@ -7,9 +7,10 @@ namespace Lessons.Tests.Lesson4
     public class PermCheckFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void PermCheck(int expected, int[] a)
+        public void Solution(int expected, int[] a)
         {
-            Assert.AreEqual(expected, new PermCheck().Solution(a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a));
         }
 
         private static object[] Data => new object[]

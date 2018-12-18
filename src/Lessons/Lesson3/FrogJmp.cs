@@ -1,10 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-namespace Lessons.Lesson3
+namespace Lessons.Lesson3.FrogJmp
 {
-    public class FrogJmp
+    public class Solution
     {
-        public int Solution(int X, int Y, int D)
+        public int solution(int X, int Y, int D)
         {
             var diff = Y - X;
 

@@ -1,14 +1,15 @@
-﻿using Lessons.Lesson6;
+﻿using Lessons.Lesson6.Distinct;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson6
 {
-    internal class DistinctFixture
+    public class DistinctFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void Distinct(int expected, int[] a)
+        public void Solution(int expected, int[] a)
         {
-            Assert.AreEqual(expected, new Distinct().solution(a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a));
         }
 
         private static object[] Data => new object[]

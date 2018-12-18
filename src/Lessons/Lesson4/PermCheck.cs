@@ -1,10 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-namespace Lessons.Lesson4
+namespace Lessons.Lesson4.PermCheck
 {
-    public class PermCheck
+    public class Solution
     {
-        public int Solution(int[] A)
+        public int solution(int[] A)
         {
             var found = new bool[A.Length];
 

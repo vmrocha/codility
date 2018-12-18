@@ -1,10 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-namespace Lessons.Lesson2
+namespace Lessons.Lesson2.CyclicRotation
 {
-    public class CyclicRotation
+    public class Solution
     {
-        public int[] Solution(int[] A, int K)
+        public int[] solution(int[] A, int K)
         {
             if (A.Length < 2)
             {

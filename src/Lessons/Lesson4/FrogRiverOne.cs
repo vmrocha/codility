@@ -1,10 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-namespace Lessons.Lesson4
+namespace Lessons.Lesson4.FrogRiverOne
 {
-    public class FrogRiverOne
+    public class Solution
     {
-        public int Solution(int X, int[] A)
+        public int solution(int X, int[] A)
         {
             var found = new bool[X];
 

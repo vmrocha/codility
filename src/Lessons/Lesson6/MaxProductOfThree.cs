@@ -1,10 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-using System;
-
-namespace Lessons.Lesson6
+namespace Lessons.Lesson6.MaxProductOfThree
 {
-    public class MaxProductOfThree
+    using System;
+
+    public class Solution
     {
         public int solution(int[] A)
         {

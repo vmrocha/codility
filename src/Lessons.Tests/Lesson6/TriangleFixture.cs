@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson6;
+﻿using Lessons.Lesson6.Triangle;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson6
@@ -6,9 +6,10 @@ namespace Lessons.Tests.Lesson6
     public class TriangleFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void Triangle(int expected, int[] a)
+        public void Solution(int expected, int[] a)
         {
-            Assert.AreEqual(expected, new Triangle().solution(a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a));
         }
 
         private static object[] Data => new object[]

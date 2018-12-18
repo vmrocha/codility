@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson5;
+﻿using Lessons.Lesson5.CountDiv;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson5
@@ -6,9 +6,10 @@ namespace Lessons.Tests.Lesson5
     public class CountDivFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void CountDiv(int expected, int a, int b, int k)
+        public void Solution(int expected, int a, int b, int k)
         {
-            Assert.AreEqual(expected, new CountDiv().solution(a, b, k));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a, b, k));
         }
 
         private static object[] Data => new object[]

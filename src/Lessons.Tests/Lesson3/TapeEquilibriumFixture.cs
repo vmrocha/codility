@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson3;
+﻿using Lessons.Lesson3.TapeEquilibrium;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson3
@@ -7,10 +7,10 @@ namespace Lessons.Tests.Lesson3
     public class TapeEquilibriumFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void TapeEquilibrium(int[] a, int expected)
+        public void Solution(int[] a, int expected)
         {
-            var instance = new TapeEquilibrium();
-            Assert.AreEqual(expected, instance.Solution(a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(a));
         }
 
         private static object[] Data => new object[]

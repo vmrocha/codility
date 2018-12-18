@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson4;
+﻿using Lessons.Lesson4.FrogRiverOne;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson4
@@ -7,9 +7,10 @@ namespace Lessons.Tests.Lesson4
     public class FrogRiverOneFixture
     {
         [TestCaseSource(nameof(Data))]
-        public void FrogJumpOne(int expected, int x, int[] a)
+        public void Solution(int expected, int x, int[] a)
         {
-            Assert.AreEqual(expected, new FrogRiverOne().Solution(x, a));
+            var instance = new Solution();
+            Assert.AreEqual(expected, instance.solution(x, a));
         }
 
         private static object[] Data => new object[]

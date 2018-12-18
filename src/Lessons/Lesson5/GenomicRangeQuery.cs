@@ -1,10 +1,11 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-using System.Collections.Generic;
-
-namespace Lessons.Lesson5
+namespace Lessons.Lesson5.GenomicRangeQuery
 {
-    public class GenomicRangeQuery
+    using System.Collections.Generic;
+
+    public class Solution
     {
         public int[] solution(string S, int[] P, int[] Q)
         {

@@ -1,4 +1,4 @@
-﻿using Lessons.Lesson6;
+﻿using Lessons.Lesson6.MaxProductOfThree;
 using NUnit.Framework;
 
 namespace Lessons.Tests.Lesson6
@@ -8,7 +8,8 @@ namespace Lessons.Tests.Lesson6
         [TestCaseSource(nameof(Data))]
         public void MaxProductOfThree(int expected, int[] a)
         {
-            Assert.AreEqual(expected, new MaxProductOfThree().solution(a));
+            var instnace = new Solution();
+            Assert.AreEqual(expected, instnace.solution(a));
         }
 
         private static object[] Data => new object[]

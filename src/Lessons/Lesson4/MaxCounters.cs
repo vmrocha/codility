@@ -1,12 +1,13 @@
 ﻿// ReSharper disable InconsistentNaming
+// ReSharper disable CheckNamespace
 
-using System;
-
-namespace Lessons.Lesson4
+namespace Lessons.Lesson4.MaxCounters
 {
-    public class MaxCounters
+    using System;
+
+    public class Solution
     {
-        public int[] Solution(int N, int[] A)
+        public int[] solution(int N, int[] A)
         {
             var result = new int[N];
             var max = 0;
