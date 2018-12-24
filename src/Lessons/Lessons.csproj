@@ -60,6 +60,7 @@
     <Compile Include="Lesson6\MaxProductOfThree.cs" />
     <Compile Include="Lesson6\Triangle.cs" />
     <Compile Include="Lesson7\Brackets.cs" />
+    <Compile Include="Lesson7\Fish.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

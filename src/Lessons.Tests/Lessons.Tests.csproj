@@ -66,6 +66,7 @@
     <Compile Include="Lesson6\MaxProductOfThreeFixture.cs" />
     <Compile Include="Lesson6\TriangleFixture.cs" />
     <Compile Include="Lesson7\BracketsFixture.cs" />
+    <Compile Include="Lesson7\FishFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
