@@ -31,3 +31,4 @@ Lesson | Exercise              | Score | Correctness | Performance | Detected Co
 06     | MaxProductOfThree     | 100%  | 100%        | 100%        | O(N*log(N))
 07     | Brackets              | 100%  | 100%        | 100%        | O(N)
 07     | Fish                  | 100%  | 100%        | 100%        | O(N)
+07     | Nesting               | 100%  | 100%        | 100%        | O(N)
