@@ -62,6 +62,7 @@
     <Compile Include="Lesson7\Brackets.cs" />
     <Compile Include="Lesson7\Fish.cs" />
     <Compile Include="Lesson7\Nesting.cs" />
+    <Compile Include="Lesson7\StoneWall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
