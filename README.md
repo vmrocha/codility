@@ -15,7 +15,7 @@ Lesson | Exercise              | Score | Correctness | Performance | Detected Co
 01     | BinaryGap             | 100%  | 100%        | -           | -
 02     | CyclicRotation        | 100%  | 100%        | -           | -
 02     | OddOccurrencesInArray | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
-03     | PermMissingElem       | 100%  | 100%        | 60%         | O(N) or O(N*log(N))
+03     | PermMissingElem       | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
 03     | FrogJmp               | 100%  | 100%        | 100%        | O(1)
 03     | TapeEquilibrium       | 100%  | 100%        | 100%        | O(N)
 04     | PermCheck             | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
