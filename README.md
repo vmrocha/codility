@@ -34,3 +34,4 @@ Lesson | Exercise              | Score | Correctness | Performance | Detected Co
 07     | Nesting               | 100%  | 100%        | 100%        | O(N)
 07     | StoneWall             | 100%  | 100%        | 100%        | O(N)
 08     | EquiLeader            | 100%  | 100%        | 100%        | O(N)
+09     | Dominator             | 100%  | 100%        | 100%        | O(N*log(N)) or O(N)

@@ -63,6 +63,7 @@
     <Compile Include="Lesson7\Fish.cs" />
     <Compile Include="Lesson7\Nesting.cs" />
     <Compile Include="Lesson7\StoneWall.cs" />
+    <Compile Include="Lesson8\Dominator.cs" />
     <Compile Include="Lesson8\EquiLeader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

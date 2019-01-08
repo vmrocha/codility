@@ -69,6 +69,7 @@
     <Compile Include="Lesson7\FishFixture.cs" />
     <Compile Include="Lesson7\NestingFixture.cs" />
     <Compile Include="Lesson7\StoneWallFixture.cs" />
+    <Compile Include="Lesson8\DominatorFixture.cs" />
     <Compile Include="Lesson8\EquiLeaderFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
