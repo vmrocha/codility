@@ -10,28 +10,29 @@ This repository is an attempt of solving the Codility Lessons using C# and shari
 
 # Progress
 
-Lesson | Exercise              | Score | Correctness | Performance | Detected Complexity
--------|-----------------------|-------|-------------|------------ | ----------------------------------
-01     | BinaryGap             | 100%  | 100%        | -           | -
-02     | CyclicRotation        | 100%  | 100%        | -           | -
-02     | OddOccurrencesInArray | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
-03     | PermMissingElem       | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
-03     | FrogJmp               | 100%  | 100%        | 100%        | O(1)
-03     | TapeEquilibrium       | 100%  | 100%        | 100%        | O(N)
-04     | PermCheck             | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
-04     | FrogRiverOne          | 100%  | 100%        | 100%        | O(N)
-04     | MaxCounters           | 100%  | 100%        | 100%        | O(N+M)
-04     | MissingInteger        | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
-05     | PassingCars           | 100%  | 100%        | 100%        | O(N)
-05     | GenomicRangeQuery     | 100%  | 100%        | 100%        | O(N+M)
-05     | MinAvgTwoSlice        | 100%  | 100%        | 100%        | O(N)
-05     | CountDiv              | 100%  | 100%        | 100%        | O(1)
-06     | Distinct              | 100%  | 100%        | 100%        | O(N*log(N)) or O(N)
-06     | Triangle              | 100%  | 100%        | 100%        | O(N*log(N))
-06     | MaxProductOfThree     | 100%  | 100%        | 100%        | O(N*log(N))
-07     | Brackets              | 100%  | 100%        | 100%        | O(N)
-07     | Fish                  | 100%  | 100%        | 100%        | O(N)
-07     | Nesting               | 100%  | 100%        | 100%        | O(N)
-07     | StoneWall             | 100%  | 100%        | 100%        | O(N)
-08     | EquiLeader            | 100%  | 100%        | 100%        | O(N)
-09     | Dominator             | 100%  | 100%        | 100%        | O(N*log(N)) or O(N)
+Lesson | Exercise                  | Score | Correctness | Performance | Detected Complexity
+-------|---------------------------|-------|-------------|------------ | ----------------------------------
+01     | BinaryGap                 | 100%  | 100%        | -           | -
+02     | CyclicRotation            | 100%  | 100%        | -           | -
+02     | OddOccurrencesInArray     | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
+03     | PermMissingElem           | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
+03     | FrogJmp                   | 100%  | 100%        | 100%        | O(1)
+03     | TapeEquilibrium           | 100%  | 100%        | 100%        | O(N)
+04     | PermCheck                 | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
+04     | FrogRiverOne              | 100%  | 100%        | 100%        | O(N)
+04     | MaxCounters               | 100%  | 100%        | 100%        | O(N+M)
+04     | MissingInteger            | 100%  | 100%        | 100%        | O(N) or O(N*log(N))
+05     | PassingCars               | 100%  | 100%        | 100%        | O(N)
+05     | GenomicRangeQuery         | 100%  | 100%        | 100%        | O(N+M)
+05     | MinAvgTwoSlice            | 100%  | 100%        | 100%        | O(N)
+05     | CountDiv                  | 100%  | 100%        | 100%        | O(1)
+06     | Distinct                  | 100%  | 100%        | 100%        | O(N*log(N)) or O(N)
+06     | Triangle                  | 100%  | 100%        | 100%        | O(N*log(N))
+06     | MaxProductOfThree         | 100%  | 100%        | 100%        | O(N*log(N))
+06     | NumberOfDiscIntersections |       |             |             |
+07     | Brackets                  | 100%  | 100%        | 100%        | O(N)
+07     | Fish                      | 100%  | 100%        | 100%        | O(N)
+07     | Nesting                   | 100%  | 100%        | 100%        | O(N)
+07     | StoneWall                 | 100%  | 100%        | 100%        | O(N)
+08     | EquiLeader                | 100%  | 100%        | 100%        | O(N)
+08     | Dominator                 | 100%  | 100%        | 100%        | O(N*log(N)) or O(N)
